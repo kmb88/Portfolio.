@@ -113,14 +113,6 @@ window.onload = function() {
 
 
 
-const big = document.querySelector(".big");
-const big2 =document.querySelector(".big2");
-let headline =document.querySelector(".headline");
-
-let t1 =new TimelineMax();
-
-t1.fromTo(big,0.5,{ opacity:0, x:30},{opacity:1, x:0},"-=1");
-
 
 
 
