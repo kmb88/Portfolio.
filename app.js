@@ -125,16 +125,16 @@ window.onload = function() {
 
 
 
-setTimeout(function (){
-alert("Hello, there!");
+// setTimeout(function (){
+// alert("Hello, there!");
 
-var hireMe = prompt("Are you here because you're interested in hiring me?");
+// var hireMe = prompt("Are you here because you're interested in hiring me?");
 
-if (hireMe == "yes","Yes","Yeah","Yep") {
-console.log("You've just made my day. Carry on.");
-}
+// if (hireMe == "yes","Yes","Yeah","Yep") {
+// console.log("You've just made my day. Carry on.");
+// }
 
-else{
-    console.log("Well, I hope you're at least thinking about it.");
-}
-// },10000);
+// else{
+//     console.log("Well, I hope you're at least thinking about it.");
+// }
+// // },10000);
