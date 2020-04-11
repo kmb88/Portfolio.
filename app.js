@@ -133,8 +133,8 @@ function validate(){
     error_message.innerHTML = text;
     return false;
   }
-  alert("Form Submitted Successfully!");
-  return true;
+//   alert("Form Submitted Successfully!");
+//   return true;
 }
 
 
