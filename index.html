@@ -8,6 +8,8 @@
   <link rel="shortcut icon" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@500&family=Raleway&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="fullpage.min.css">
     <link rel="stylesheet" href="styles.css">
     
@@ -16,34 +18,34 @@
 </head>
 <body>
   <div class="cursor"></div>
-  <div id="fullpage">
+  <div id="fullpage" col-md-12 col-lg-4>
          <section class="section s1">  
       
       <div class="pageLanding">    
       <nav>
       <h1>KB</h1>
     <ul class="nav-links">
-      <li>About Me</li>
-      <li>Experience</li>
+      <li>About Me</li>              
+            <li>Experience</li>
       <li>Projects</li>
       <li>Skills</li>
-    <li><button class="btn" type="button" name="button">Contact Me</button></li>      
+    <li>Contact Me</li>      
     </ul>
   </nav> 
   <img class="astro" src="images/page-not-found-4.png" alt="" height="550" width="555"align="right">
-      <h2 class="big"> Hello there, </h2>
- <br>
-    <h2 class="big">thanks for stopping by. </h2>
+      <h2 class="big"><u>Hello there,</u></h2>
     <br>
-    <h2 class="big">Welcome to my World! </h2>
+    <h2 class="big"> <u>thanks for stopping by.</u></h2>
     <br>
-    <h3 class= "little">Enjoy.</h3>
+    <h2 class="big2"><u>Welcome to my World!</u></h2>
+    <h3 class="little"><i>Enjoy.</i></h3>
       
    </div>
   </section >
 
     <section class="section s2">
-      <div class="about-me" >
+      
+      <div id="about-me">
         <div class="Carousel">
   <h1>Hi my name is Karen I am a
   <span
@@ -66,17 +68,50 @@
                   <img src="images/taxi-programming.png" alt="coding animals" width="250" height="230" align="left">
                       <p>I have a year of coding expereince in a work space setting, where I used javascript in Visualforce pages. Please click to download my resume or take a look at my Linkdin profile.</p>
                       <button type="button" class="btn btn-outline-info">Resume</button>
-                     <button onclick="window.location.href='https://linkedin.com/in/karen-bergan'" type="button" class="btn btn-outline-dark">Linkedin</button>
-       
+                      <button onclick="window.location.href='https://linkedin.com/in/karen-bergan'" type="button" class="btn btn-outline-dark">Linkdin</button>
+<a href="portfolio/karenBerganResume.pdf">look</a>
 
-  </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>
             </section>
     
       
       
       <section class="section s4">
         <div class="Projects">
-          <h2 class="pjts">Projects</h2>
+          <h2>Projects</h2>
         </div>
       </section>
     
@@ -180,7 +215,7 @@
         </clipPath>
         </defs>
         </svg>
-            <h2 class="skills">Skills</h2>
+            <h2>Skills</h2>
         <table style="width:70%">
             <tbody>
             <td>HTML5</td>
@@ -200,8 +235,59 @@
         
         <section class="section s7">      
   <div class="Contact Me">
-        <h2 class="cme">Contact Me</h2>
-      </div>
+        
+    <div class="wrapper">
+      
+<h2>Contact us</h2>
+<div id="error_message">
+ 
+</div>
+<form action="" id="myform" onsubmit = "return validate();">
+<div class="input_field">
+    <input type="text" placeholder="Name" id="name">
+</div>
+<div class="input_field">
+    <input type="text" placeholder="Subject" id="subject">
+</div>
+<div class="input_field">
+    <input type="text" placeholder="Phone" id="phone">
+</div>
+<div class="input_field">
+    <input type="text" placeholder="Email" id="email">
+</div>
+<div class="input_field">
+  <textarea name="message" placeholder="Message" id="message"></textarea>
+</div>
+<div class="btn">
+    <input type="submit">
+</div>
+</form>
+</div>
+
+  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     
   
          <footer class="last">
@@ -229,7 +315,7 @@
   
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    
-   <script type="text/javascript" src="app.js" charset="utf-8">
+   <script type="text/javascript" src="index.js" charset="utf-8">
      </script>
     
       
